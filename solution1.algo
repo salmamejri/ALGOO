@@ -1,0 +1,43 @@
+// solution 1 
+algo sum 
+int i,
+tab =arr[]
+
+int findSum(int arr[], int n) 
+{ 
+    
+  
+    int sum = 0; 
+    for (int i=0; i<n; i++) 
+    { 
+        if (arr[i] != arr[i+1]) 
+            sum = sum + arr[i]; 
+    } 
+  
+    return sum; 
+} 
+// solution 2 
+algo sum 2 
+debut 
+
+var i, j : int
+  var sums = [];
+
+  for (var i = 0; i < arr.length; i++) { 
+
+    
+    for (var j = i + 1; j < arr.length; j++) {
+
+  
+      if (arr[i] + arr[j] === S) {
+        sums.push([arr[i], arr[j]]);
+      }
+
+    }
+
+  }
+
+ 
+  return sums;
+
+}
